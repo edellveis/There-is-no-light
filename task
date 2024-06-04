@@ -434,3 +434,4 @@ console.log(toUpperCase("hello")); // "HELLO"
 console.log(toUpperCase("world")); // "WORLD"
 console.log(toUpperCase("JavaScript")); // "JAVASCRIPT"
 console.log(toUpperCase("coding")); // "CODING"
+(https://code.mu/ru/javascript/tasker/stager/)
