@@ -1,0 +1,290 @@
+Звісно, ось кілька простих задач на JavaScript для практики, схожих на ті, які ви вже робили:
+
+Задача 1: Перевірка числа на парність
+Напиши функцію isEven, яка приймає одне число (параметр number) і повертає true, якщо число парне, і false в іншому випадку.
+
+javascript
+Копіювати код
+function isEven(number) {
+    // Твій код тут
+}
+
+// Перевірка коректності роботи функції
+console.log(isEven(4)); // true
+console.log(isEven(7)); // false
+console.log(isEven(0)); // true
+console.log(isEven(-2)); // true
+
+
+
+Задача 2: Перевірка на наявність слова
+Напиши функцію containsWord, яка приймає два рядки (параметри message і word) і повертає true, якщо message містить word, і false в іншому випадку.
+
+javascript
+Копіювати код
+function containsWord(message, word) {
+    // Твій код тут
+}
+
+// Перевірка коректності роботи функції
+console.log(containsWord("Hello, world!", "world")); // true
+console.log(containsWord("JavaScript is awesome", "python")); // false
+console.log(containsWord("I love programming", "love")); // true
+console.log(containsWord("Functional programming", "functional")); // true
+Задача 3: Обчислення середнього значення
+Напиши функцію calculateAverage, яка приймає масив чисел (параметр numbers) і повертає середнє значення цих чисел.
+
+javascript
+Копіювати код
+function calculateAverage(numbers) {
+    // Твій код тут
+}
+
+// Перевірка коректності роботи функції
+console.log(calculateAverage([1, 2, 3, 4, 5])); // 3
+console.log(calculateAverage([10, 20, 30, 40, 50])); // 30
+console.log(calculateAverage([2, 4, 6, 8, 10])); // 6
+console.log(calculateAverage([7, 14, 21, 28, 35])); // 21
+Задача 4: Форматування імені
+Напиши функцію formatName, яка приймає рядок (параметр name) і повертає цей рядок, де перша літера велика, а всі інші малі.
+
+javascript
+Копіювати код
+function formatName(name) {
+    // Твій код тут
+}
+
+// Перевірка коректності роботи функції
+console.log(formatName("john")); // "John"
+console.log(formatName("MARY")); // "Mary"
+console.log(formatName("pETEr")); // "Peter"
+console.log(formatName("AnNA")); // "Anna"
+Задача 5: Порівняння двох чисел
+Напиши функцію compareNumbers, яка приймає два числа (параметри a і b) і повертає рядок "greater", якщо a більше за b, "less", якщо a менше за b, і "equal", якщо a дорівнює b.
+
+javascript
+Копіювати код
+function compareNumbers(a, b) {
+    // Твій код тут
+}
+
+// Перевірка коректності роботи функції
+console.log(compareNumbers(10, 5)); // "greater"
+console.log(compareNumbers(3, 7)); // "less"
+console.log(compareNumbers(4, 4)); // "equal"
+console.log(compareNumbers(9, 2)); // "greater"
+console.log(compareNumbers(1, 1)); // "equal"
+Сподіваюся, ці задачі допоможуть вам попрактикуватися та покращити свої навички програмування на JavaScript.
+
+сформуй ще 
+ChatGPT
+Звісно, ось ще кілька задач для практики на JavaScript:
+
+Задача 6: Перевірка на високосний рік
+Напиши функцію isLeapYear, яка приймає рік (параметр year) і повертає true, якщо рік є високосним, і false в іншому випадку.
+
+javascript
+Копіювати код
+function isLeapYear(year) {
+    // Твій код тут
+}
+
+// Перевірка коректності роботи функції
+console.log(isLeapYear(2000)); // true
+console.log(isLeapYear(1900)); // false
+console.log(isLeapYear(2020)); // true
+console.log(isLeapYear(2021)); // false
+Задача 7: Обчислення факторіалу
+Напиши функцію factorial, яка приймає число (параметр n) і повертає факторіал цього числа. Факторіал числа n обчислюється як 1 * 2 * 3 * ... * n.
+
+javascript
+Копіювати код
+function factorial(n) {
+    // Твій код тут
+}
+
+// Перевірка коректності роботи функції
+console.log(factorial(5)); // 120
+console.log(factorial(3)); // 6
+console.log(factorial(0)); // 1
+console.log(factorial(7)); // 5040
+Задача 8: Обчислення суми елементів масиву
+Напиши функцію sumArray, яка приймає масив чисел (параметр numbers) і повертає суму всіх елементів масиву.
+
+javascript
+Копіювати код
+function sumArray(numbers) {
+    // Твій код тут
+}
+
+// Перевірка коректності роботи функції
+console.log(sumArray([1, 2, 3, 4, 5])); // 15
+console.log(sumArray([10, 20, 30, 40, 50])); // 150
+console.log(sumArray([2, 4, 6, 8, 10])); // 30
+console.log(sumArray([7, 14, 21, 28, 35])); // 105
+Задача 9: Повернення максимального числа з масиву
+Напиши функцію findMax, яка приймає масив чисел (параметр numbers) і повертає найбільше число з цього масиву.
+
+javascript
+Копіювати код
+function findMax(numbers) {
+    // Твій код тут
+}
+
+// Перевірка коректності роботи функції
+console.log(findMax([1, 2, 3, 4, 5])); // 5
+console.log(findMax([10, 20, 30, 40, 50])); // 50
+console.log(findMax([2, 4, 6, 8, 10])); // 10
+console.log(findMax([7, 14, 21, 28, 35])); // 35
+Задача 10: Перевірка паліндрому
+Напиши функцію isPalindrome, яка приймає рядок (параметр str) і повертає true, якщо рядок є паліндромом, і false в іншому випадку. Паліндром — це рядок, який читається однаково з обох кінців.
+
+javascript
+Копіювати код
+function isPalindrome(str) {
+    // Твій код тут
+}
+
+// Перевірка коректності роботи функції
+console.log(isPalindrome("racecar")); // true
+console.log(isPalindrome("hello")); // false
+console.log(isPalindrome("madam")); // true
+console.log(isPalindrome("level")); // true
+console.log(isPalindrome("world")); // false
+Сподіваюся, ці задачі допоможуть вам покращити свої навички програмування на JavaScript. Удачі!
+
+Можна простіщі задачки?
+ChatGPT
+Звісно, ось кілька простіших задач на JavaScript для практики:
+
+Задача 1: Перевірка на позитивне число
+Напиши функцію isPositive, яка приймає число (параметр number) і повертає true, якщо число позитивне, і false в іншому випадку.
+
+javascript
+Копіювати код
+function isPositive(number) {
+    // Твій код тут
+}
+
+// Перевірка коректності роботи функції
+console.log(isPositive(5)); // true
+console.log(isPositive(-3)); // false
+console.log(isPositive(0)); // false
+Задача 2: Привітання користувача
+Напиши функцію greet, яка приймає рядок (параметр name) і повертає рядок "Hello, name!".
+
+javascript
+Копіювати код
+function greet(name) {
+    // Твій код тут
+}
+
+// Перевірка коректності роботи функції
+console.log(greet("John")); // "Hello, John!"
+console.log(greet("Alice")); // "Hello, Alice!"
+console.log(greet("Bob")); // "Hello, Bob!"
+Задача 3: Перевірка на пустий рядок
+Напиши функцію isEmptyString, яка приймає рядок (параметр str) і повертає true, якщо рядок порожній, і false в іншому випадку.
+
+javascript
+Копіювати код
+function isEmptyString(str) {
+    // Твій код тут
+}
+
+// Перевірка коректності роботи функції
+console.log(isEmptyString("")); // true
+console.log(isEmptyString("Hello")); // false
+console.log(isEmptyString(" ")); // false
+Задача 4: Додавання двох чисел
+Напиши функцію add, яка приймає два числа (параметри a і b) і повертає їх суму.
+
+javascript
+Копіювати код
+function add(a, b) {
+    // Твій код тут
+}
+
+// Перевірка коректності роботи функції
+console.log(add(2, 3)); // 5
+console.log(add(10, 20)); // 30
+console.log(add(-5, 5)); // 0
+Задача 5: Перевірка довжини рядка
+Напиши функцію isLongerThan, яка приймає два параметри: рядок str і число length. Функція повинна повертати true, якщо довжина рядка більше length, і false в іншому випадку.
+
+javascript
+Копіювати код
+function isLongerThan(str, length) {
+    // Твій код тут
+}
+
+// Перевірка коректності роботи функції
+console.log(isLongerThan("Hello", 3)); // true
+console.log(isLongerThan("Hi", 5)); // false
+console.log(isLongerThan("JavaScript", 10)); // false
+Задача 6: Перетворення числа в рядок
+Напиши функцію numberToString, яка приймає число (параметр num) і повертає його як рядок.
+
+javascript
+Копіювати код
+function numberToString(num) {
+    // Твій код тут
+}
+
+// Перевірка коректності роботи функції
+console.log(numberToString(123)); // "123"
+console.log(numberToString(0)); // "0"
+console.log(numberToString(-45)); // "-45"
+Задача 7: Перевірка початку рядка
+Напиши функцію startsWithA, яка приймає рядок (параметр str) і повертає true, якщо рядок починається з літери "A", і false в іншому випадку.
+
+javascript
+Копіювати код
+function startsWithA(str) {
+    // Твій код тут
+}
+
+// Перевірка коректності роботи функції
+console.log(startsWithA("Apple")); // true
+console.log(startsWithA("Banana")); // false
+console.log(startsWithA("avocado")); // false
+Задача 8: Перевірка наявності числа у масиві
+Напиши функцію containsNumber, яка приймає масив чисел (параметр numbers) і число (параметр num). Функція повинна повертати true, якщо число присутнє у масиві, і false в іншому випадку.
+
+javascript
+Копіювати код
+function containsNumber(numbers, num) {
+    // Твій код тут
+}
+
+// Перевірка коректності роботи функції
+console.log(containsNumber([1, 2, 3, 4, 5], 3)); // true
+console.log(containsNumber([10, 20, 30, 40], 25)); // false
+console.log(containsNumber([7, 14, 21, 28], 14)); // true
+Задача 9: Перетворення рядка в масив слів
+Напиши функцію stringToWords, яка приймає рядок (параметр str) і повертає масив слів, розділених пробілами.
+
+javascript
+Копіювати код
+function stringToWords(str) {
+    // Твій код тут
+}
+
+// Перевірка коректності роботи функції
+console.log(stringToWords("Hello world")); // ["Hello", "world"]
+console.log(stringToWords("JavaScript is awesome")); // ["JavaScript", "is", "awesome"]
+console.log(stringToWords("I love coding")); // ["I", "love", "coding"]
+Задача 10: Перевірка числа на непарність
+Напиши функцію isOdd, яка приймає число (параметр number) і повертає true, якщо число непарне, і false в іншому випадку.
+
+javascript
+Копіювати код
+function isOdd(number) {
+    // Твій код тут
+}
+
+// Перевірка коректності роботи функції
+console.log(isOdd(5)); // true
+console.log(isOdd(8)); // false
+console.log(isOdd(0)); // false
+console.log(isOdd(-3)); // true
