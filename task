@@ -276,3 +276,150 @@ console.log(isOdd(5)); // true
 console.log(isOdd(8)); // false
 console.log(isOdd(0)); // false
 console.log(isOdd(-3)); // true
+
+Задача 1: Перевірка на нуль
+Напиши функцію isZero, яка приймає число (параметр number) і повертає true, якщо число дорівнює нулю, і false в іншому випадку.
+
+javascript
+Копіювати код
+function isZero(number) {
+    return number === 0;
+}
+
+// Перевірка коректності роботи функції
+console.log(isZero(0)); // true
+console.log(isZero(5)); // false
+console.log(isZero(-3)); // false
+console.log(isZero(0.0)); // true
+Задача 2: Привітання на основі часу доби
+Напиши функцію greetTime, яка приймає годину (параметр hour) і повертає "Good morning" якщо година менша за 12, "Good afternoon" якщо година менша за 18, і "Good evening" в іншому випадку.
+
+javascript
+Копіювати код
+function greetTime(hour) {
+    if (hour < 12) {
+        return "Good morning";
+    } else if (hour < 18) {
+        return "Good afternoon";
+    } else {
+        return "Good evening";
+    }
+}
+
+// Перевірка коректності роботи функції
+console.log(greetTime(10)); // "Good morning"
+console.log(greetTime(14)); // "Good afternoon"
+console.log(greetTime(20)); // "Good evening"
+console.log(greetTime(5)); // "Good morning"
+Задача 3: Перевірка числа на додатність
+Напиши функцію isPositive, яка приймає число (параметр number) і повертає true, якщо число додатнє, і false в іншому випадку.
+
+javascript
+Копіювати код
+function isPositive(number) {
+    return number > 0;
+}
+
+// Перевірка коректності роботи функції
+console.log(isPositive(5)); // true
+console.log(isPositive(-3)); // false
+console.log(isPositive(0)); // false
+console.log(isPositive(7)); // true
+Задача 4: Перевірка рядка на наявність пробілу
+Напиши функцію containsSpace, яка приймає рядок (параметр str) і повертає true, якщо рядок містить пробіл, і false в іншому випадку.
+
+javascript
+Копіювати код
+function containsSpace(str) {
+    return str.includes(' ');
+}
+
+// Перевірка коректності роботи функції
+console.log(containsSpace("Hello world")); // true
+console.log(containsSpace("NoSpaceHere")); // false
+console.log(containsSpace(" ")); // true
+console.log(containsSpace("")); // false
+Задача 5: Перевірка числа на від'ємність
+Напиши функцію isNegative, яка приймає число (параметр number) і повертає true, якщо число від'ємне, і false в іншому випадку.
+
+javascript
+Копіювати код
+function isNegative(number) {
+    return number < 0;
+}
+
+// Перевірка коректності роботи функції
+console.log(isNegative(-5)); // true
+console.log(isNegative(3)); // false
+console.log(isNegative(0)); // false
+console.log(isNegative(-1)); // true
+Задача 6: Привітання користувача з конкретним ім ям
+Напиши функцію greetUser, яка приймає рядок (параметр name) і повертає рядок "Hi, name!".
+
+javascript
+Копіювати код
+function greetUser(name) {
+    return `Hi, ${name}!`;
+}
+
+// Перевірка коректності роботи функції
+console.log(greetUser("John")); // "Hi, John!"
+console.log(greetUser("Alice")); // "Hi, Alice!"
+console.log(greetUser("Bob")); // "Hi, Bob!"
+Задача 7: Перевірка наявності символу "A"
+Напиши функцію containsA, яка приймає рядок (параметр str) і повертає true, якщо рядок містить літеру "A" (в будь-якому регістрі), і false в іншому випадку.
+
+javascript
+Копіювати код
+function containsA(str) {
+    return str.toUpperCase().includes('A');
+}
+
+// Перевірка коректності роботи функції
+console.log(containsA("Apple")); // true
+console.log(containsA("Banana")); // true
+console.log(containsA("Cherry")); // false
+console.log(containsA("avocado")); // true
+Задача 8: Перетворення числа в абсолютне значення
+Напиши функцію absoluteValue, яка приймає число (параметр number) і повертає його абсолютне значення.
+
+javascript
+Копіювати код
+function absoluteValue(number) {
+    return Math.abs(number);
+}
+
+// Перевірка коректності роботи функції
+console.log(absoluteValue(-5)); // 5
+console.log(absoluteValue(3)); // 3
+console.log(absoluteValue(0)); // 0
+console.log(absoluteValue(-10)); // 10
+Задача 9: Перевірка на пустий масив
+Напиши функцію isEmptyArray, яка приймає масив (параметр arr) і повертає true, якщо масив порожній, і false в іншому випадку.
+
+javascript
+Копіювати код
+function isEmptyArray(arr) {
+    return arr.length === 0;
+}
+
+// Перевірка коректності роботи функції
+console.log(isEmptyArray([])); // true
+console.log(isEmptyArray([1, 2, 3])); // false
+console.log(isEmptyArray(["a", "b", "c"])); // false
+console.log(isEmptyArray([0])); // false
+Задача 10: Перетворення рядка в верхній регістр
+Напиши функцію toUpperCase, яка приймає рядок (параметр str) і повертає цей рядок у верхньому регістрі.
+
+javascript
+Копіювати код
+function toUpperCase(str) {
+    return str.toUpperCase();
+}
+
+// Перевірка коректності роботи функції
+console.log(toUpperCase("hello")); // "HELLO"
+console.log(toUpperCase("world")); // "WORLD"
+console.log(toUpperCase("JavaScript")); // "JAVASCRIPT"
+console.log(toUpperCase("coding")); // "CODING"
+(https://code.mu/ru/javascript/tasker/stager/)
