@@ -170,19 +170,7 @@ function isPositive(number) {
 console.log(isPositive(5)); // true
 console.log(isPositive(-3)); // false
 console.log(isPositive(0)); // false
-Задача 2: Привітання користувача
-Напиши функцію greet, яка приймає рядок (параметр name) і повертає рядок "Hello, name!".
 
-javascript
-Копіювати код
-function greet(name) {
-    // Твій код тут
-}
-
-// Перевірка коректності роботи функції
-console.log(greet("John")); // "Hello, John!"
-console.log(greet("Alice")); // "Hello, Alice!"
-console.log(greet("Bob")); // "Hello, Bob!"
 Задача 3: Перевірка на пустий рядок
 Напиши функцію isEmptyString, яка приймає рядок (параметр str) і повертає true, якщо рядок порожній, і false в іншому випадку.
 
