@@ -14,7 +14,6 @@ function containsNumber(numbers, num) {
     // Твій код тут
     return numbers.includes(num);
 }
-
 // Перевірка коректності роботи функції
 console.log(containsNumber([1, 2, 3, 4, 5], 3)); // true
 console.log(containsNumber([10, 20, 30, 40], 25)); // false
